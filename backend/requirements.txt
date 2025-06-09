@@ -1,0 +1,22 @@
+# Dépendances pour le scraping
+requests>=2.31.0          # Pour faire des requêtes HTTP
+beautifulsoup4>=4.12.0    # Pour parser le HTML
+lxml>=4.9.0               # Parser XML/HTML plus rapide
+
+# Manipulation de données
+pandas>=2.1.0             # Pour organiser les données en tableaux
+openpyxl>=3.1.0           # Pour exporter en Excel
+
+# Export Google Sheets
+gspread>=5.12.0           # Pour interagir avec Google Sheets
+google-auth>=2.23.0       # Authentification Google
+google-auth-oauthlib>=1.1.0  # OAuth pour Google
+
+# Utilitaires
+python-dotenv>=1.0.0      # Pour gérer les variables d'environnement
+tqdm>=4.66.0              # Barres de progression
+# time est inclus par défaut dans Python (pas besoin de l'installer)
+
+# Automation de navigateur
+selenium>=4.15.0          # Pour automatiser le navigateur
+webdriver-manager>=4.0.0  # Pour gérer automatiquement les drivers 
